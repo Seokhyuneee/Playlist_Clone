@@ -1,0 +1,20 @@
+.secondDiv__playlist {
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+}
+
+.secondDiv__playlist>div:first-child {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.secondDiv__playlist>div:first-child>span {
+    opacity: 0.5;
+}
+
+.secondDiv__playlist>input {
+    background: black;
+}

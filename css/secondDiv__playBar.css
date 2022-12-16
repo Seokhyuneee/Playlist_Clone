@@ -1,0 +1,21 @@
+.secondDiv__playBar {
+    position: sticky;
+    bottom: 0;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 25px;
+}
+
+.secondDiv__playBar>i {
+    font-size: 25px;
+}
+
+.secondDiv__playBar>i:nth-child(3) {
+    font-size: 60px;
+}
+
+.secondDiv__playBar>i:nth-child(4n+1) {
+    opacity: 0.3;
+}

@@ -1,0 +1,18 @@
+@import "reset.css";
+
+@import "music-main.css";
+@import "music-firstDiv.css";
+@import "firstDiv__list.css";
+@import "firstDiv__playMusic.css";
+@import "music-secondDiv.css";
+@import "secondDiv__playlist.css";
+@import "secondDiv__playBar.css";
+
+body {
+    font-family: nunito;
+    background-color: #F7F7F7;
+}
+
+* {
+    box-sizing: border-box;
+}
